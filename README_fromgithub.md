@@ -1,6 +1,7 @@
 # mySmilei
-Allows users to specify in the namelist the ```"tunnel_BSI"``` keyword for the ```Species``` Constructor, for the ```ionization_model``` argument 
-The implemented rate is in its correct (standard_AtomicUnits_rate * au_to_wc) form (i.e. in SMILEI units), so that when multiplied by dt (always in SMILEI units) yields a correct result.
+Allows users to specify in the namelist the ```"tunnel_BSI"``` keyword for the ```Species``` Constructor, for the ```ionization_model``` argument.
+
+The implemented rate is in its correct (standard_AtomicUnits_rate * au_to_wc) form (i.e. in SMILEI units), so that when this rate is multiplied by dt (always in SMILEI units) yields a correct result.
 
 ######################################################
 
