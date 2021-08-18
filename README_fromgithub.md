@@ -13,5 +13,4 @@ The implemented rate is in its correct (standard_AtomicUnits_rate * au_to_wc) fo
 
 * int continuity_tool( , ... , ) helps choosing from the 3 rates above, at each timestep
 
-* Multiple Ionizations during 1 timestep can happen for any of the rates above, 
-* The exact procedure is described in R.Nuter et al. PoP 19, 033107 (2011) and was already implemented in SMILEI.
+* Multiple Ionizations during 1 timestep can happen for any of the rates above, the exact procedure of this mechanism is described in R.Nuter et al. PoP 19, 033107 (2011) and was already implemented in SMILEI.
