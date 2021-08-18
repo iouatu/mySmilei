@@ -11,6 +11,6 @@ The implemented rate is in its correct (standard_AtomicUnits_rate * au_to_wc) fo
 2. Quadratic Bauer-Mulser rate, Phys. Rev. A 59, 569 (1999) https://journals.aps.org/pra/abstract/10.1103/PhysRevA.59.569
 3. Linear I. I. Artmenko, I. Yu. Kostyukov Phys. Rev. A 96, 032106 (2017) https://journals.aps.org/pra/abstract/10.1103/PhysRevA.96.032106
 
-* int continuity_tool( , ... , ) helps choosing from the 3 rates above, at each timestep
+* ```int continuity_tool( , ... , )``` helps choosing from the 3 rates above, at each timestep
 
 * Multiple Ionizations during 1 timestep can happen for any of the rates above, the exact procedure of this mechanism is described in R.Nuter et al. PoP 19, 033107 (2011) and was already implemented in SMILEI.
